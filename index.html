@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>emin ödev</title>
+    <title>Ana Sayfa</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body style="background-color: aqua;">
-    <p>(SAYFA1)</p>
-    <h2 style="text-align: center;">--AKAYTAY UÇAK SEYEHAT ACENTESİ--</h2>
-    <h2 style="text-align: center;">--kayıt formu ve bilet alma--</h2>
+<body >
+   <header>
+    <div class="container">
+    <h1>Akaytay Uçakçılık A.Ş <br> <h6>"Her an her yerde"</h6></h1>
+    <br><br>
+    <h3>Modern Uçaklar ve Geleceğin Havacılığı</h3>
+    <nav>
+      <a href="index.html">Kayıt Formu</a>
+      <a href="sayfa2.html">Kayıtlar</a>
+      <a href="sayfa3.html">Hakkımızda</a>
+      <a href="sayfa4.html">Uçaklar hakkında</a>
+      <a href="sayfa6.html">Uçak Modelleri</a>
+      <a href="sayfa5.html">Uçak Görselleri</a>
+       <a href="sayfa10.html">Fiyat Tahmin Oyunu</a>
+    </nav>
+    </div>
+</header>
 
+
+<table>
+    <tr>
+        <td>
+            <h2 >--kayıt formu ve bilet alma--</h2>
+            <br>
     <form action="sayfa2.html" method="get">
         <label for="ad">İSİM</label><br>
         <input type="text" name="ad" id="ad" required><br>
@@ -211,10 +231,33 @@
          </select><br><br>
 
         <button type="submit">Kayıt Ol</button>
+        </td></tr>
+      
     </form>
-
+    
+</table>
+  <button onclick="location.href='sayfa3.html'" id="button" > Hakkımızda bilgi öğrenmek İçin tıkla</button>
    
 
-    <button onclick="location.href='sayfa3.html'" style="font-size: large;">HAKKIMIZDA BİLGİ ÖĞRENMEK İÇİN TIKLA</button>
+    
+    </div>
 </body>
+
+<br>
+<footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <h3>Akaytay Uçakçılık A.Ş</h3>
+            <p>Ulaşımın Kolay, Erişilebilir ve Güvenli Adresi</p>
+            <p>© 2023 Akaytay Uçakçılık. All rights reserved.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="sayfa7.html">Gizlilik Politikası </a>
+            <a href="sayfa9.html">SSS </a>
+            <a href="sayfa8.html">İletişim</a>
+        </div>
+    </div>
+</footer>
+
 </html>

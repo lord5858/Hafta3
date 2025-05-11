@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uçak Fiyatı Tahmin Oyunu</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="javascripts/oyun.js"></script>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Akaytay Uçakçılık A.Ş <br /><h6>"Her an her yerde"</h6></h1>
+        <h3>Uçak Fiyatı Tahmin Oyunu</h3>
+        <nav>
+          <a href="index.html">Kayıt Formu</a>
+          <a href="sayfa2.html">Kayıtlar</a>
+          <a href="sayfa3.html">Hakkımızda</a>
+          <a href="sayfa4.html">Uçaklar Hakkında</a>
+          <a href="sayfa6.html">Uçak Modelleri</a>
+          <a href="sayfa5.html">Uçak Görselleri</a>
+          <a href="sayfa10.html">Fiyat Tahmin Oyunu</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="game-container">
+      <h2>DOĞRU TAHMİN EDERSENİZ BİLETİNİZ BEDAVA!</h2>
+      <p id="route-info">Yükleniyor...</p>
+      <input type="number" id="guess" placeholder="Tahmininiz (TL)" />
+      <button onclick="checkGuess()">Tahmin Et</button>
+      <p id="result"></p>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <h3>Akaytay Uçakçılık A.Ş</h3>
+          <p>Ulaşımın Kolay, Erişilebilir ve Güvenli Adresi</p>
+          <p>© 2023 Akaytay Uçakçılık. All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+          <a href="sayfa7.html">Gizlilik Politikası</a>
+          <a href="sayfa9.html">SSS</a>
+          <a href="sayfa8.html">İletişim</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts/game.js"></script>
+  </body>
+</html>
